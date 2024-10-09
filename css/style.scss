@@ -1,0 +1,27 @@
+@import 'normalize';
+body{
+  background-color: rgb(33, 33, 33);
+}
+canvas{
+  margin: auto;
+  max-width: 1400px;
+  height:  700px;
+  background-color: transparent;
+  border:  2px solid gray;
+}
+button{  
+  height: 20px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  &:disabled{
+    color: gray
+  }
+}
+.gameover{
+  display: none;
+  position: absolute;
+  top: 350px;
+  left: 730px;
+  color: white
+}
